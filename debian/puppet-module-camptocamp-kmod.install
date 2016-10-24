@@ -1,0 +1,6 @@
+metadata.json usr/share/puppet/modules.available/camptocamp-kmod
+templates usr/share/puppet/modules.available/camptocamp-kmod
+manifests usr/share/puppet/modules.available/camptocamp-kmod
+spec usr/share/puppet/modules.available/camptocamp-kmod
+Rakefile usr/share/puppet/modules.available/camptocamp-kmod
+Gemfile usr/share/puppet/modules.available/camptocamp-kmod

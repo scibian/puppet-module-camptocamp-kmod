@@ -1,0 +1,5 @@
+puppet-module-camptocamp-kmod (2.1.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #841976)
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 24 Oct 2016 21:27:27 +0000

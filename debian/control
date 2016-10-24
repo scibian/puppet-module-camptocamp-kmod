@@ -1,0 +1,25 @@
+Source: puppet-module-camptocamp-kmod
+Section: admin
+Priority: extra
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               openstack-pkg-tools,
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/gitweb/?p=openstack/puppet-module-camptocamp-kmod.git
+Vcs-Git: https://anonscm.debian.org/git/openstack/puppet-module-camptocamp-kmod.git
+Homepage: https://github.com/openstack/puppet-camptocamp-kmod
+
+Package: puppet-module-camptocamp-kmod
+Architecture: all
+Depends: puppet-common,
+         puppet-module-puppetlabs-stdlib,
+         ${misc:Depends}
+Description: Puppet module for managing kmod configuration
+ Puppet lets you centrally manage every important aspect of your system using a
+ cross-platform specification language that manages all the separate elements
+ normally aggregated in different files, like users, cron jobs, and hosts,
+ along with obviously discrete elements like packages, services, and files.
+ .
+ This module handles kernel module loading and configuration. It is perfect for
+ manipulating things in /etc/modprobe.d/<module name>.conf.
