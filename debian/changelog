@@ -1,3 +1,9 @@
+puppet-module-camptocamp-kmod (2.1.1-1sci8u1) scibian8; urgency=medium
+
+  * New scibian8 release.
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Fri, 15 Feb 2019 16:00:17 +0100
+
 puppet-module-camptocamp-kmod (2.1.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #841976)
