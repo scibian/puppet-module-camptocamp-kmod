@@ -1,18 +1,18 @@
 Source: puppet-module-camptocamp-kmod
 Section: admin
 Priority: extra
-Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Maintainer: Scibian Project <packaging@scibian.org>
 Uploaders: Thomas Goirand <zigo@debian.org>
 Build-Depends: debhelper (>= 9),
                openstack-pkg-tools,
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/gitweb/?p=openstack/puppet-module-camptocamp-kmod.git
-Vcs-Git: https://anonscm.debian.org/git/openstack/puppet-module-camptocamp-kmod.git
-Homepage: https://github.com/openstack/puppet-camptocamp-kmod
+Vcs-Browser: https://github.com/scibian/puppet-module-camptocamp-kmod
+Vcs-Git: https://github.com/scibian/puppet-module-camptocamp-kmod.git
+Homepage: https://forge.puppet.com/camptocamp/kmod
 
 Package: puppet-module-camptocamp-kmod
 Architecture: all
-Depends: puppet-common,
+Depends: puppet4 | puppet-common,
          puppet-module-puppetlabs-stdlib,
          ${misc:Depends}
 Description: Puppet module for managing kmod configuration
